@@ -1,0 +1,22 @@
+.customized_button {
+    width: auto;
+    height: 36px;
+    padding: 0 15px;
+    margin: 4.5px 0 4.5px 8px ; 
+    border-radius: 25px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.logout_button {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .customized_button {
+        margin: 4.5px 8px 4.5px 0; 
+    }
+    .dropdown_checked_option {
+        margin: 0 8px 0 0;
+    }
+}

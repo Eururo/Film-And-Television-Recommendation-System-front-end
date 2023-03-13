@@ -1,0 +1,38 @@
+.page_option_list_transverse {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.option_container_transverse {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+}
+
+.option_transverse {
+    width: auto;
+    height: 30px;
+    margin: auto;
+    padding: 0 15px;
+    border-radius: 25px;
+    font-size: 1.05rem;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.option_transverse:hover {
+    color: var(--personal_page_button_hover_font_color);
+}
+
+.option_transverse:active {
+    color: #ffffff;
+    background-color: var(--personal_page_button_active_background_color);
+}
+

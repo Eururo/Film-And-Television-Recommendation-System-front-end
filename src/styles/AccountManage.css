@@ -1,0 +1,131 @@
+.account_manage_page_container {
+    width: 720px;
+    height: 560px;
+    margin: 24px auto 50px auto;
+    border-radius: 15px;
+    border: 1px solid #d1d5d7;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.account_manage_page_navbar {
+    width: 24%;
+    height: 100%;
+    margin-right: 4%;
+    color: white;
+    background-color: #b6434a;
+    font-weight: bold;
+}
+
+.account_manage_page_title {
+    width: 100%;
+    height: 10%;
+    margin: 10px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.recommend_manage_page_navabr_item_container {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.account_manage_page_content_container {
+    width: 72%;
+    height: 100%;
+    padding: 15px 0;
+    /* border: 1px solid black; */
+    font-weight: bold;
+}
+
+.img_upload_container {
+    width: 150px;
+    height: auto;
+}
+
+.example_image {
+    width: 100px;
+    height: 100px;
+    margin: 0 0 5px 10px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+
+.upload_file_button {
+    appearance: none;
+    width: auto;
+    height: 36px;
+    margin: 0 15px 15px 10px;
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: 1px solid #e2e5e7;
+    color: white;
+    background-color: #b6434a;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.user_info_display_section {
+    width: 90%;
+    margin: 15px 0 0 10px;
+}
+
+.user_info {
+    max-width: 325px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 0 15px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #b6434a;
+}
+
+.user_info_label {
+    width: 64px;
+    margin-right: 10px;
+}
+
+.user_info input {
+    max-width: 250px;
+    padding: 5px ;
+    appearance: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.extra_option {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:768px){
+    .account_manage_page_container {
+        width: 98%;
+    }
+    .account_manage_page_navbar {
+        width: 32%;
+        margin-right: 1.5%;
+    }
+    .account_manage_page_content_container {
+        width: 64%;
+        margin-right: 1.5%;
+    }
+    .user_info {
+        padding-left: 5px;
+    }
+    .user_info_label {
+        margin: 0;
+    }
+    .user_info input {
+        width: 64%;
+    }
+}

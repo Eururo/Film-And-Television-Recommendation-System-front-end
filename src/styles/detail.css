@@ -1,0 +1,163 @@
+.movie_detail_card {
+    width: 56%;
+    margin: 20px auto 50px auto;
+    padding: 25px 15px 36px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid rgb(207, 210, 211);
+    border-radius: 10px;
+}
+
+.movie_img_container {
+    width: 30%;
+    margin: 10px 0 10px 5%;
+}
+
+.movie_content {
+    width: 50%;
+    margin: 10px 5%;
+}
+
+.movie_detail_content{
+    font-size: 0.95rem;
+}
+
+.title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.item {
+    margin-bottom: 5px;
+}
+
+.edit_section{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.collect_edit_section{
+    width: 50%;
+}
+
+.collect_box{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.rating_section{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.rating_display_section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.rating_title{
+    width: 20%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.rating_box{
+    width: 80%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid black; */
+}
+
+.rating {
+    width: auto;
+    /* border: 1px solid black; */
+}
+
+.rating_value{
+    width: auto;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+}
+
+.movie_profile{
+    width: 90%;
+    margin: 15px 5% 0 5%;
+
+}
+
+.profile_content{
+    font-size: 0.9rem;
+    text-indent: 2rem;
+    margin-top: 5px;
+    word-break: break-all;
+    word-spacing: normal;
+
+}
+
+.collect_type {
+    width: 27%;
+    height: 30px;
+    margin-right: 6%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.collect_type:hover {
+    background-color: #e6e6e8;
+}
+
+.true_button{
+    color: white;
+    background-color: #5a7385;
+}
+
+.true_button:hover {
+    background-color: #5a7385;
+}
+
+@media only screen and (max-width: 1200px) {
+    .movie_detail_card {
+      width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .movie_detail_card {
+      width: 95%;
+    }
+    .collect_edit_section {
+        width: 100%;
+    }
+    .rating_section {
+        width: 100%;
+    }
+    .rating_title {
+        width: auto;
+        text-align: left;
+    }
+    .movie_profile {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .movie_img_container {
+        width: 54%;
+    }
+    .movie_content {
+        width: 81%;
+    }
+}
+
+

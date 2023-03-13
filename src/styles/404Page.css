@@ -1,0 +1,31 @@
+.error_page_container {
+    width: 450px;
+    height: 450px;
+    margin: 36px auto 50px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+}
+
+.error_page_title {
+    margin: 25px 0 25px 50px;
+    font-size: 4.5rem;
+}
+
+.error_page_description {
+    margin: 25px 0 25px 50px;
+    font-size: 1.25rem;
+}
+
+.error_page_button {
+    width: 100px;
+    margin: 50px 0 0 50px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: brown;
+    background-color: white;
+    font-size: 1rem;
+    text-align: center;
+}

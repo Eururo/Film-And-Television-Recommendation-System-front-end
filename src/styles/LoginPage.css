@@ -1,0 +1,148 @@
+.login_page_container {
+    --theme-color: #50776d;
+    width: 450px;
+    height: 450px;
+    margin: 36px auto 50px auto;
+    border-radius: 15px;
+    border: 1px solid #294a39;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.login_page_header {
+    width: 100%;
+    height: 15%;
+    color: white;
+    background-color: var(--theme-color);
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_page_content_container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.login_page_content {
+    width: 325px;
+    height: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login_info_item {
+    width: 100%;
+    height: 56px;
+    margin-bottom: 30px;
+    padding: 5px 0 5px 25px ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--theme-color);
+}
+
+.login_info_label{
+    width: 81px;
+}
+
+.login_info_input {
+    max-width: 180px;
+    padding: 5px ;
+    appearance: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.login_button_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login_button {
+    width: 100px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #e2e5e7;
+    color: white;
+    background-color: var(--theme-color);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forget_password_container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.forget_password {
+    width: 80px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 25px;
+    color: white;
+    background-color: #b6434a;
+    font-weight: normal;
+    font-size: 0.8rem;
+    border: 1px solid #e2e5e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_button {
+    background-color: var(--theme-color);
+}
+
+.register_page_content_container {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.register_page_content {
+    width: 325px;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register_info_item {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1px;
+    padding: 3px 15px 3px 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--theme-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .login_page_container {
+        width: 95%;
+    }
+}

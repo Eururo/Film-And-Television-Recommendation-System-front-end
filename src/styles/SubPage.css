@@ -1,0 +1,109 @@
+.subpage_container {
+    width: 77%;
+    margin: 15px 10% 50px 13%;
+}
+
+.subpage_navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subpage_title {
+    height: 100%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.subpage_option_list{
+    width: auto;
+    height: 100%;
+}
+
+.subpage_section_container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.subpage_pagination {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.subpage_card_container {
+    width: 12%;
+    margin: 15px 2.2% 0 0;
+}
+
+.subpage_card_img{
+    width:100%;
+}
+
+.subpage_card_content{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subpage_card_name {
+    max-width: 78%;
+    margin-right: 2%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.subpage_card_score {
+    max-width: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .subpage_card_container {
+        width: 15%;
+        margin-right: 1.6%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .subpage_container {
+        width: 95%;
+        margin: 15px 1% 50px 4%;
+    }
+    .subpage_option_list {
+        width: 72%;
+    }
+    .subpage_card_container {
+        width: 17%;
+        margin-right: 3%;
+    }
+    .subpage_card_content {
+        text-align: center;
+    }
+    .subpage_card_name {
+        width: 100%;
+        margin: 0;
+    }
+    .subpage_card_score {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .subpage_card_container {
+        width: 22.5%;
+        margin-right: 2.5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .subpage_card_container {
+        width: 30%;
+        margin-right: 3%;
+    }
+}

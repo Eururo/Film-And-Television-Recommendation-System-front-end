@@ -1,0 +1,39 @@
+.option_list {
+    width: 100%;
+    height: 80%;
+    margin-top: 10%;
+}
+
+.option_list_item_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option_list_item {
+    width: auto;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.option_list_transverse {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.option_list_transverse_item_container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option_list_transverse_item {
+    width: auto;
+    padding: 5px 20px;
+    border-radius: 25px;
+}

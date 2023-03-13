@@ -1,0 +1,95 @@
+.nested_page_content {
+    width: 100%;
+    min-height: 430px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* border: 1px solid black; */
+}
+
+.nestedpage_card_container {
+    width: 15%;
+    margin: 0 0.8% 15px 0.8%;
+    position: relative;
+}
+
+.checkbox_label {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(31, 42, 48, 0.36);
+}
+
+.nestedpage_card_img_checkbox {
+    visibility: hidden;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+}
+
+.nestedpage_card_img_checkbox input {
+    width: 27px;
+    height: 27px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    background: url(../../public/images/check-line.svg);
+}
+
+input[type="checkbox"]:checked {
+    background: #5a7385 url(../../public/images/check-line.svg);
+}
+
+.nestedpage_card_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nestedpage_card_name {
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nestedpage_card_score {
+    width: 20%;
+}
+
+.nestedpage_pagination {
+    width: 100%;
+    height: 10%;
+    margin-top: 17px;
+    /* border: 1px solid black; */
+}
+
+@media only screen and (max-width:992px){
+    .nestedpage_card_container {
+        width: 23%;
+        margin: 0 2% 15px 0;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .nestedpage_card_container {
+        width: 30%;
+        margin: 0 3% 15px 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .nestedpage_card_container {
+        width: 48%;
+        margin: 0 2% 15px 0;
+    }
+} 

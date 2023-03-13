@@ -1,0 +1,50 @@
+.user_search_result_page_container {
+    width: 100%;
+    min-height: 475px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.user_search_result_item {
+    width: 12.5%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user_search_result_item_img_container {
+    width: 100px;
+    height: 100px;
+}
+
+.user_search_result_item_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.user_search_result_item_info {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .user_search_result_item {
+        width: 16.6%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .user_search_result_item {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .user_search_result_item {
+        width: 33%;
+    }
+}

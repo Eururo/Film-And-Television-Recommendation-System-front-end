@@ -1,0 +1,61 @@
+.list_page_contaienr {
+    width: 31%;
+    height: auto;
+    margin: 0 2.3% 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.list_page_img_container {
+    width: 36%;
+    height: 100%;
+    margin-right: 4%;
+}
+
+.list_page_content {
+    width: 60%;
+    height: 100%;
+}
+
+.list_page_name {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.list_page_score {
+    width: 100%;
+    height: auto;
+}
+
+.list_page_description {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 992px) {
+    .list_page_contaienr {
+        width: 48%;
+        margin: 0 2% 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .list_page_contaienr {
+        width: 100%;
+    }
+}
